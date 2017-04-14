@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Glavni meni">
+        <menu>
+    <group android:id="@+id/group_main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Novosti" />
+        <item
+            android:id="@+id/karte"
+            android:icon="@drawable/ic_style_black_24dp"
+            android:title="Karte" />
+        <item
+            android:id="@+id/trgovina"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Trgovina" />
+        <item
+            android:id="@+id/galerija"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Galerija" />
+        <item
+            android:id="@+id/igraci"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Igrači" />
+        <item
+            android:id="@+id/raspored"
+            android:icon="@drawable/ic_sort_black_24dp"
+            android:title="Raspored" />
+        <item
+            android:id="@+id/video"
+            android:icon="@drawable/ic_video_library_black_24dp"
+            android:title="CedevitaTV" />
+        <item
+            android:id="@+id/live"
+            android:icon="@drawable/ic_dvr_black_24dp"
+            android:title="Live" />
+    </group>
+        </menu>
+    </item>
+
+    <item android:title="Dodatne informacije">
+        <menu>
+            <group android:id="@+id/group_dodatno"
+                android:checkableBehavior="single">
+            <item
+                android:id="@+id/lokacija"
+                android:icon="@drawable/ic_place_black_24dp"
+                android:title="Lokacija" />
+            <item
+                android:id="@+id/kontakt"
+                android:icon="@drawable/ic_contact_mail_black_24dp"
+                android:title="Kontakt" />
+            <item
+                android:id="@+id/sponzori"
+                android:icon="@drawable/ic_work_black_24dp"
+                android:title="Sponzori" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

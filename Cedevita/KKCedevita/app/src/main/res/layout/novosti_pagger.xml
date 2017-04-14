@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/novostiContainer"
+    android:background="#f0f0f0">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@mipmap/novosti"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewPager"
+        android:layout_margin="10dp"
+        android:text="Nakon gotovo do posljednjeg mjesta ispunjenog Doma sportova, bez najmanjeg incidenta tijekom velikog derbija ABA lige i pobjede Cedevite nad Partizanom NIS, ružan ispad dogodio se u obližnjem kafiću uz dvoranu. KK Partizan NIS davno je već napustio dvoranu kao i manja skupina njegovih navijača koji su uz policijsku pratnju otišli iz Doma sportova, desetak maskiranih maloljetnih huligana u nekoliko su sekundi napali nazočne u kafiću uz dvoranu gdje se poslovično okupljaju ljudi iz KK Cedevite i njihovi simpatizeri. Cilj napada bila je nekolicina osoba iz Bosne i Hercegovine, vjerojatno poklonika KK Partizan, od kojih je jedan ozlijeđen, kao i konobar iz kafića. Policija je uhitila jednog od napadača a liječnik KK Cedevita dr. Tomislav Cerovečki je ozlijeđenom dvojcu brzo ukazao pomoć. Nakon incidenta koji je drastično pokvario fantastičan ambijent derbija KK Cedevita navodi:
+
+'Svi u KK Cedevita žalosni smo zbog incidenta koji je, nakon odlične utakmice održane u iznimno pozitivnoj atmosferi, izazvala nekolicina huligana u ugostiteljskom objektu u blizini dvorane. Kao klub smo ponosni na sportski duh koji vlada na natjecanjima na kojima sudjelujemo i oštro osuđujemo svako nasilje, na terenu i izvan njega jednako. Nasilje stoji izravno protiv svega što sport predstavlja, a mi predstavljamo sport. Žao nam je što je sinoćnji incident nakon utakmice zasjenio veliki sportski događaj.'"
+        android:textSize="20sp"
+        android:textColor="@color/cast_expanded_controller_background_color" />
+
+</LinearLayout>
+</ScrollView>

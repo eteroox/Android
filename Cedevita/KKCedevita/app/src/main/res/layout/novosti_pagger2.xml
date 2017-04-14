@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/novostiContainer2"
+    android:background="#f0f0f0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textviewPager2"
+            android:layout_margin="10dp"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="@color/cast_expanded_controller_background_color"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@mipmap/novosti2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textviewPager"
+            android:layout_margin="10dp"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="@color/cast_expanded_controller_background_color" />
+
+    </LinearLayout>
+</ScrollView>
